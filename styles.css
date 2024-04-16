@@ -18,6 +18,8 @@ a {
     color: white;
   }
 
+/* Header section */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -83,10 +85,13 @@ ul {
     flex-shrink: 0;
 }
 
+/* Information section */
+
 .section-one {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 .information-header {
@@ -123,4 +128,33 @@ ul {
     font-size: 18px;
 }
 
+/* Quote Section */
 
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 150px 0;
+}
+
+.quote {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 28px;
+    font-weight: 600;
+    align-self: flex-end;
+}
