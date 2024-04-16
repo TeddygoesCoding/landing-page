@@ -18,6 +18,8 @@ a {
     color: white;
   }
 
+
+
 /* Header section */
 
 .header {
@@ -68,6 +70,7 @@ ul {
     width: 125px;
     height: 35px;
     border-radius: 8px;
+    border: 0;
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 16px;
@@ -84,6 +87,8 @@ ul {
     width: 520px;
     flex-shrink: 0;
 }
+
+
 
 /* Information section */
 
@@ -128,6 +133,8 @@ ul {
     font-size: 18px;
 }
 
+
+
 /* Quote Section */
 
 .section-two {
@@ -157,4 +164,45 @@ ul {
     font-size: 28px;
     font-weight: 600;
     align-self: flex-end;
+}
+
+
+
+/* Third (blue box) section */
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.bluebox {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    min-width: 800px;
+    padding: 60px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+h1.bluebox-header {
+    font-size: 26px;
+    font-weight: 600;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0 0 6px 0;
+
+}
+
+.bluebox-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.bluebox-button {
+    border: 2px solid #F9FAF8;
 }
