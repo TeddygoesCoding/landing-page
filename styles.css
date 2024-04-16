@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     margin: 0;
     font-family: "Roboto", sans-serif;
 }
@@ -9,7 +10,7 @@ header {
     flex-direction: column;
     background-color: #1F2937;
     flex: 1;
-    padding: 20px 200px 130px 200px;
+    padding: 20px 240px 130px 240px;
 }
 
 a {
@@ -29,7 +30,9 @@ ul {
     margin: 0;
     padding: 0;
     gap: 25px;
+    align-items: center;
 }
+
 
 .headertext {
     color: #F9FAF8;
@@ -79,4 +82,45 @@ ul {
     width: 520px;
     flex-shrink: 0;
 }
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 50px 0;
+}
+
+.pic-div {
+    display: flex;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+
+.pic1 {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 170px;
+}
+
+
+.pics {
+    height: 170px;
+    width: 170px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 4px solid #3882F6;
+}
+
+.pictext {
+    padding: 4px;
+    font-size: 18px;
+}
+
 
